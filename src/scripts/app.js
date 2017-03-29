@@ -19,7 +19,7 @@ if (tamano => 3) {
 function validacion() {
   var texto = document.getElementById("add-search").value;
   var tamano = texto.length;
-  var btn_buscar= document.getElementById('btn_buscar');
+  var btn_buscar = document.getElementById('btn_buscar');
   if (tamano => 1) {
     btn_buscar.classList.remove('disabled');
   } else if (tamano === 0) {
@@ -43,7 +43,7 @@ var app = new function () {
     if (this.search.length > 0) {
       for (i = 0; i < this.search.length; i++) {
         data += '<tr>';
-        data += '<td>' + this.search[i] + '<br> <a href="#" class="mostrar" onclick="app.Edit(' + i + ')">Editar</a> <a href="#" class="mostrar" onclick="app.Delete(' + i + ')">Eliminar</a>' +'</td>';
+        data += '<td>' + this.search[i] + '<br> <a href="#" class="mostrar" onclick="app.Edit(' + i + ')">Editar</a> <a href="#" class="mostrar" onclick="app.Delete(' + i + ')">Eliminar</a>' + '</td>';
         data += '</tr>';
       }
     }

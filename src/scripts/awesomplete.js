@@ -21,8 +21,8 @@ var _ = function (input, o) {
 	o = o || {};
 
 	configure(this, {
-		minChars: 2,
-		maxItems: 10,
+		minChars: 3,
+		maxItems: 7,
 		autoFirst: false,
 		data: _.DATA,
 		filter: _.FILTER_CONTAINS,
