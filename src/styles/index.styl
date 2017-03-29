@@ -12,7 +12,13 @@
     background blue
     border 1px solid blue
     border-radius 5px
-    padding 3px 15px 
+    padding 3px 15px
+    text-decoration none
+    margin-left 5px
+.disabled
+    background #ccc !important
+    border 1px solid #ccc !important
+    color #fff
 .barra_vertical
     padding 10px
     position fixed
@@ -20,7 +26,19 @@
     height 580px
 .mostrar
     display none
-#title_busqueda
+th
+    text-align left
+td
+    padding 1px
+    // height 56px
     &:hover
         .mostrar
             display inline-block
+#guardar_busqueda
+    border 0px solid #ccc
+    background #fff
+    color #000
+    outline none
+form
+input
+    display inline-block

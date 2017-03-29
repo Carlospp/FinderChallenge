@@ -1,14 +1,9 @@
 .search-form
-    //- h1 search form
-    input(
-            type='text'
-            name='buscar'
-            id='buscar'
-            onkeyup='validacion();'
-            aria-autocomplete="list"
-            )
 
-    button(id='btn_buscar' disabled="disabled") Buscar 
-    a(href='#' onclick="guardar_busqueda();") Guardar Búsqueda 
+    form(action='javascript:void(0);', method='POST', onsubmit='app.Add()')
+        input#add-search(type='text', placeholder='Ingresar busqueda', onkeypress="validacion();")
+        //- input(type='submit', value='Buscar', id="btn_buscar" , disabled)
+        a( href="#" id="btn_buscar" class="disabled") Buscar
+        input(type='submit',id="guardar_busqueda" value='Guardar Búsqueda')
 
-
+    //- a(href='#' onclick="guardar_busqueda();") Guardar Búsqueda 

@@ -10,7 +10,7 @@ Este desafío contiene las siguientes herramientas:
 
 - [Stylus](http://stylus-lang.com/)
 
-- [rupture](http://jescalan.github.io/rupture/)
+- [rupture](npm install rupture)
 
 ## Requisitos previos
 

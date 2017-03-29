@@ -24,6 +24,13 @@
   border: 1px solid #00f;
   border-radius: 5px;
   padding: 3px 15px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.disabled {
+  background: #ccc !important;
+  border: 1px solid #ccc !important;
+  color: #fff;
 }
 .barra_vertical {
   padding: 10px;
@@ -34,6 +41,22 @@
 .mostrar {
   display: none;
 }
-#title_busqueda:hover .mostrar {
+th {
+  text-align: left;
+}
+td {
+  padding: 1px;
+}
+td:hover .mostrar {
+  display: inline-block;
+}
+#guardar_busqueda {
+  border: 0px solid #ccc;
+  background: #fff;
+  color: #000;
+  outline: none;
+}
+form,
+input {
   display: inline-block;
 }
