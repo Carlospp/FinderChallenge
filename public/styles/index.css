@@ -1,0 +1,27 @@
+* {
+  font-family: "Proxima Nova";
+}
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.search-form {
+  margin-top: 30px;
+}
+@media only screen and (max-width: 650px) {
+  .search-form {
+    display: none;
+  }
+}
+#btn_buscar[disabled] {
+  color: #fff;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+#btn_buscar {
+  color: #fff;
+  background: #00f;
+  border: 1px solid #00f;
+  border-radius: 5px;
+  padding: 3px 15px;
+}

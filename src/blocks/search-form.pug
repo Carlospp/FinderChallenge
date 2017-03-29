@@ -1,2 +1,14 @@
 .search-form
-    h1 search form
+    //- h1 search form
+    input(
+            type='text'
+            name='buscar'
+            id='buscar'
+            onkeyup='validacion();'
+            aria-autocomplete="list"
+            )
+
+    button(id='btn_buscar' disabled="disabled") Buscar 
+    a(href='#') Guardar Búsqueda 
+
+
